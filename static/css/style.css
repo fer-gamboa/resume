@@ -1,0 +1,452 @@
+/*************************************************
+ *  Core
+ **************************************************/
+
+/* Headings */
+
+a,
+h3.article-title a:hover {
+  color: rgb(127,140,180); 
+}
+
+
+a:hover,
+a:focus {
+  color: rgb(52,60,86);
+}
+
+.home-section {
+  padding-left: 7em !important;
+  padding-right: 7em !important;
+}
+
+
+#contact {
+  padding-bottom: 50px !important;
+}
+
+
+/*************************************************
+ *  FOOTER
+ **************************************************/
+
+body > .container {
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  background-image: url(/css/icons/footer.png);
+  height: 385px !important;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.site-footer {
+  padding-top: 20%;
+}
+
+.site-footer p {
+  background:rgba(255,255,255,0.5);
+  color: #454545;
+  margin: 0;
+  padding-bottom: 1em;
+  font-weight: bold;
+}
+
+.site-footer p:nth-child(1){
+  padding-top: 1em;
+}
+
+
+.site-footer p a {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.site-footer p a:hover {
+  color: #ffffff !important;
+  text-decoration: underline !important;
+}
+
+/*************************************************
+ *  Fonts
+ **************************************************/
+@import url('https://fonts.googleapis.com/css?family=Asap');
+
+html {
+  font-family: 'Asap', sans-serif !important; 
+  font-weight: 300;
+  font-size: 0.95rem;
+  color: rgba(0,0,0,0.8);
+  line-height: 1.65;
+}
+
+
+body a {
+  color: #ff7849;
+}
+
+body a:hover {
+  color: #c74518 !important;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Asap', sans-serif !important; 
+  font-weight: 400;
+}
+
+.navbar .navbar-light a, .navbar-light {
+    font-family: 'Asap', sans-serif !important;
+    font-weight: 500 !important;
+    letter-spacing: 1px;
+    font-size: 19px !important;
+}
+
+
+.section-heading p {
+  font-size: 1rem !important;
+}
+
+
+
+
+/*************************************************
+ *  ORGANIZATION & SOCIAL
+ **************************************************/
+
+.portrait-title h3[itemprop="jobTitle"] {
+    font-size: 1.15rem !important;
+    color: #ff7849;
+}
+
+
+.portrait-title a {
+    color: #ff7849 !important;
+}
+
+.portrait-title a:hover {
+    color: #c74518 !important;
+    text-decoration: none;
+}
+
+
+
+
+
+.network-icon a[itemprop="sameAs"] {
+  color: #424856;
+}
+
+.network-icon a[itemprop="sameAs"]:hover {
+  color: #c74518;
+}
+
+
+
+/*************************************************
+ *  EDUCATION
+ **************************************************/
+
+.ul-edu.fa-ul li:nth-child(1) i:before {
+    background-image: url(/css/icons/star_t.png);
+}
+
+.ul-edu.fa-ul li:nth-child(2) i:before {
+    background-image: url(/css/icons/rank_t.png);
+}
+
+.ul-edu.fa-ul li:nth-child(3) i:before {
+    background-image: url(/css/icons/rank2_t.png);
+}
+
+.ul-edu.fa-ul li i:before {
+  width: 32px;
+  height: 32px;
+  background-size: 32px;
+  display: inline-flex;
+  vertical-align: middle;
+  content: "";
+}
+
+
+.ul-interests li:before {
+  content: "";
+  background-image: url(/css/icons/target_t.png);
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  background-size: 16px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 0.2em;
+}
+
+.ul-interests li {
+  vertical-align: middle;
+  margin-bottom: 0.5em;
+}
+
+.ul-interests {
+  list-style: none;
+  padding-left: 1em !important;
+}
+
+
+/*************************************************
+ *  Navigation Bar
+ **************************************************/
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+  color: #ff7849;
+  font-weight: 400;
+  background-color: transparent !important;
+}
+
+.navbar-light .navbar-nav>.nav-item>.nav-link, .navbar-light .navbar-nav>.nav-item>.nav-link:focus, .navbar-light .navbar-nav>.nav-item>.nav-link:hover {
+    white-space: nowrap;
+    -webkit-transition: 0.2s ease;
+    transition: 0.2s ease;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.dropdown-menu, nav#navbar-main li.nav-item {
+    font-size: 0.85rem !important;
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:focus,
+.dropdown-menu > .active > a:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: rgb(111, 68, 2);
+  outline: 0;
+}
+
+.navbar-light {
+  background: #424856 !important;
+  text-transform: uppercase !important;
+  color: #ffffff !important;
+}
+
+
+.navbar-light .navbar-nav>li.nav-item>a.active, .navbar-light .navbar-nav>li.nav-item>a.active:focus, .navbar-light .navbar-nav>li.nav-item>a.active:hover {
+    color: #ff7849;
+}
+
+.navbar-light .navbar-nav>.nav-item>.nav-link:hover {
+    color: #c74518 !important;
+    background-color: transparent;
+}
+
+.navbar-brand {
+  color: #ffffff !important;
+}
+
+.navbar-toggler, .navbar-toggler:hover {
+  color: #ffffff !important;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover {
+    color: #ffffff;
+    background-color: transparent;
+  }
+
+}
+
+
+
+a[href="/#about"]:before {
+  background-image: url(/css/icons/home_t.png);
+}
+
+a[href="/#skills"]:before {
+  background-image: url(/css/icons/medal_t.png);
+}
+
+a[href="/#projects"]:before {
+  background-image: url(/css/icons/plate_t.png);
+}
+
+a[href="/#posts"]:before {
+  background-image: url(/css/icons/scroll_t.png);
+}
+
+a[href="/#contact"]:before {
+  background-image: url(/css/icons/mail_t.png);
+}
+
+.nav-link:before {
+  width: 32px;
+  height: 32px;
+  background-size: 32px;
+  display: inline-flex;
+  vertical-align: middle;
+  content: "";
+}
+
+
+/*************************************************
+ *  SKILLS
+ **************************************************/
+
+.featurette-icon {
+  color: #ff7849;
+}
+
+
+.fas.fa-cog:before {
+  background-image: url(/css/icons/gear_t.png) !important;
+}
+
+.fas.fa-code:before {
+  background-image: url(/css/icons/war_t.png) !important;
+}
+
+.fas.fa-vector-square:before {
+  background-image: url(/css/icons/axe_t.png) !important;
+}
+
+
+.featurette-icon i:before {
+  content: "";
+  height: 80px;
+  width: 80px;
+  background-size: 80px;
+  display: inline-block;
+  background-position: center;
+}
+
+
+
+
+/*************************************************
+ *  Blog Articles
+ **************************************************/
+
+.article-metadata a:hover {
+  color: #ff7849;
+}
+
+
+.media.stream-item {
+    margin-bottom: 2rem;
+    background-color: #ffffff;
+    padding: 1em;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: all 0.2s ease-out;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+
+.media.stream-item:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+/*#posts h1 {
+  padding-bottom: 1em;
+}*/
+
+.btn-toolbar {
+  justify-content: center;
+}
+
+
+.article-style img {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+
+/*************************************************
+ *  Button Primary: Color Override
+ **************************************************/
+
+.btn-toolbar .btn.btn-primary:active, .btn-toolbar .btn.btn-primary.active,
+.btn-toolbar .btn.btn-primary:hover, .btn-toolbar .btn.btn-primary:focus{
+    background-color: #c74518 !important;
+    color: #ffffff !important;
+}
+
+.btn-toolbar .btn.btn-primary {
+    background: #ff7849 !important;
+}
+
+
+
+
+/*************************************************
+ *  Button Outlines
+ **************************************************/
+
+
+.btn-primary .btn-outline, .btn-outline-primary {
+  color: #ff7849;
+  border-color: #ff7849;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show > .btn-outline-primary.dropdown-toggle, .btn-outline-primary:hover {
+  color: #fff;
+  background-color: #c74518;
+  border-color: #c74518;
+}
+
+
+
+
+/*************************************************
+ *  Toolbar Buttons
+ **************************************************/
+ 
+
+.btn-toolbar .btn.btn-primary {
+  background: rgb(127,140,180);
+}
+
+.btn-toolbar .btn.btn-primary:hover,
+.btn-toolbar .btn.btn-primary:focus {
+  background-color: rgba(127,140,180,0.6);
+}
+
+.btn-toolbar .btn.btn-primary:active,
+.btn-toolbar .btn.btn-primary.active {
+  background-color: rgba(52,60,86,1);
+}
+
+
+
+
+/*************************************************
+ *  Alerts
+ **************************************************/
+
+
+.alert-note {
+  color: #fff;
+  background-color: rgb(127,140,180); 
+  border-color: #bce8f1;
+}
+
+.alert-warning {
+  color: #fff;
+  background-color: rgb(238, 88, 99); 
+  border-color: #ebccd1;
+}
+  
+  
+  
+  
+/*************************************************
+ *  CONTACT
+ **************************************************/
+form[name="contact"] {
+  text-align: center;
+}

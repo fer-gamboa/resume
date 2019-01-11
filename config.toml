@@ -1,0 +1,190 @@
+baseurl = "/"
+
+# Title of your site
+title = "Fernando Gamboa"
+
+# Your copyright notice - appears in site footer.
+# To display a copyright symbol, type `&copy;`.
+copyright = "&copy; 2018"
+
+theme = "hugo-academic"
+enableEmoji = true
+footnotereturnlinkcontents = "<sup>^</sup>"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
+paginate = 10
+
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+
+# Enable analytics by entering your Google Analytics tracking ID
+googleAnalytics = ""
+
+# Default language to use (if you setup multilingual support)
+defaultContentLanguage = "en"
+
+# Get last modified date for content from Git?
+enableGitInfo = false
+
+[outputs]
+  home = [ "HTML", "CSS", "RSS", "JSON" ]
+  section = [ "HTML", "RSS" ]
+
+
+[blackfriday]
+  hrefTargetBlank = true
+  fractions = true  
+  smartypants = true
+  extensions = ["backslashLineBreak"]
+
+
+
+[params]
+  # AUTHOR SETUP
+
+  # Your details.
+  name = "Fernando Gamboa"
+  role = "Bachelor on Game Design & Development Student"
+
+  # Organizations/Affiliations.
+  organizations = [ { name = "Universidad Nacional del Litoral", url = "http://fich.unl.edu.ar/carrera.php?id=26" } ]
+
+  gravatar = false
+  avatar = "portrait.jpg" 
+
+  # Details for the Contact Widget
+  email = "fernandogamboa72@gmail.com"
+  phone = ""
+  skype = ""
+
+
+
+
+  # SITE SETUP
+  color_theme = ""
+  font = ""
+  day_night = false
+  date_format = "Jan 2, 2006"
+  time_format = "15:04"
+  
+  # Link custom CSS and JS assets
+  # (relative to /static/css and /static/js respectively)
+  custom_css = ["style.css"]
+  custom_js  = ["scripts.js"]
+  
+
+
+  # Description for social sharing and search engines. If undefined, author role is used in place.
+  description = ""
+
+  # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
+  sharing_image = ""
+
+  twitter = "fergamboa_"
+
+
+
+
+  # Show estimated reading time for posts?
+  reading_time = true
+  math = false
+
+  # Highlight.js options
+  highlight = true
+  highlight_languages = ["c++", "css", "javascript", "html", "c", "c#"]
+  # highlight_style = "github"
+  
+  
+  
+  # Enable native social sharing buttons?
+  sharing = true
+
+  # Privacy pack
+  #   Show a cookie consent message to visitors
+  #   Anonymize IP in Google Analytics (if enabled)
+  privacy_pack = false
+
+
+
+
+
+  [params.talks]
+  time = true
+
+
+
+  # Configuration of project pages.
+  [params.projects]
+    # List publications and talks related to the project?
+    list_children = false
+
+    # Post list format.
+    #   0 = Simple
+    #   1 = Detailed
+    #   2 = Stream
+    post_format = 1
+
+
+    # Talk list format.
+    #   0 = Simple
+    #   1 = Detailed
+    #   2 = Stream
+    talk_format = 2
+
+
+
+  # Social Networking
+  [[params.social]]
+    icon = "envelope"
+    icon_pack = "fas"
+    link = "#contact"
+
+  [[params.social]]
+    icon = "twitter"
+    icon_pack = "fab"
+    link = "https://twitter.com/fergamboa_"
+
+  [[params.social]]
+    icon = "github"
+    icon_pack = "fab"
+    link = "https://github.com/fer-gamboa"
+
+
+
+
+# Navigation Links
+[params.menus]
+  align_right = true
+
+[[menu.main]]
+  name = "Home"
+  url = "#about"
+  weight = 1
+  
+[[menu.main]]
+  name = "Skills"
+  url = "#skills"
+  weight = 2
+  
+[[menu.main]]
+  name = "Projects"
+  url = "#projects"
+  weight = 3
+
+[[menu.main]]
+  name = "Blog"
+  url = "#posts"
+  weight = 4
+
+[[menu.main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 5
+
+
+
+
+
+# Languages
+[languages.en]
+  languageCode = "en-us"
