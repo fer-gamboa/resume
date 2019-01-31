@@ -5,7 +5,7 @@ active = true
 date = 2016-04-20T00:00:00
 
 title = "Projects"
-subtitle = "These are projects I have completed from personal interest, as part of researching a tool, or as assignments for my undergraduate. You can use the categories to filter the projects, and contact me if you are interested.<br>[Browse &#8594;](projects/)"
+subtitle = "These are projects I have completed from personal interest, as part of researching a tool, or as assignments for my undergraduate. You can use the categories to filter the projects, and contact me if you are interested.<br>[Browse &#8594;](project/)"
 
 # Order that this section will appear in.
 weight = 10
@@ -47,6 +47,10 @@ filter_default = 0
 [[filter]]
   name = "Game Designs"
   tag = "GDDs"
+  
+[[filter]]
+  name = "Game Jam"
+  tag = "GameJam"
 
 +++
 

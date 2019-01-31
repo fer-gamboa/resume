@@ -78,7 +78,7 @@ enableGitInfo = false
   description = ""
 
   # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
-  sharing_image = ""
+  sharing_image = "icon-192.png"
 
   twitter = "fergamboa_"
 
@@ -92,7 +92,7 @@ enableGitInfo = false
   # Highlight.js options
   highlight = true
   highlight_languages = ["c++", "css", "javascript", "html", "c", "c#"]
-  # highlight_style = "github"
+  highlight_style = "github"
   
   
   

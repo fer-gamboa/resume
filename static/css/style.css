@@ -394,7 +394,7 @@ a[href="/#contact"]:before {
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show > .btn-outline-primary.dropdown-toggle, .btn-outline-primary:hover {
-  color: #fff;
+  color: #fff !important;
   background-color: #c74518;
   border-color: #c74518;
 }

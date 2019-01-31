@@ -23,7 +23,7 @@ weight = 5
   icon = "cog"
   icon_pack = "fas"
   name = "Game Engines"
-  description = '**Unity, Godot, HaxeFlixel**<br>These are the ones I am familiar with and I have worked on different projects, or at least got my hands on.'  
+  description = '**Unity, Godot, HaxeFlixel, Construct**<br>These are the ones I am familiar with and I have worked on different projects, or at least got my hands on.'  
   
 [[feature]]
   icon = "vector-square"
