@@ -148,6 +148,11 @@ enableGitInfo = false
     icon = "github"
     icon_pack = "fab"
     link = "https://github.com/fer-gamboa"
+    
+  [[params.social]]
+    icon = "html5"
+    icon_pack = "fab"
+    link = "https://fergamboa.itch.io/"
 
 
 
