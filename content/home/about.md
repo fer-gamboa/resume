@@ -23,7 +23,7 @@ weight = 1
   year = 2019
 
 [[education.courses]]
-  course = "BSC in Bromatology"
+  course = "BSc in Bromatology"
   institution = "FCA, Universidad Nacional de Cuyo"
   year = 2015
 

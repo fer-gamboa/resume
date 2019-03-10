@@ -45,8 +45,8 @@ url_code = ""
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form #`[{...}, {...}, {...}]`
 [[url_custom]] 
-  name = "Download [Win]" 
-  url = ""
+  name = "Play" 
+  url = "https://fergamboa.itch.io/platformer-land"
 +++
 <br />
 
