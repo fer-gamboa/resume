@@ -2,6 +2,26 @@
  *  Core
  **************************************************/
 
+
+/* VIDEO CONTAINERS */
+
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+
 /* Headings */
 
 a,
@@ -18,6 +38,14 @@ a:focus {
 .home-section {
   padding-left: 7em !important;
   padding-right: 7em !important;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .home-section {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 }
 
 

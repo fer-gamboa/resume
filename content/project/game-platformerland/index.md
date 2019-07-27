@@ -74,9 +74,9 @@ My final result was a simple, buy entertaining game, where each level requires s
 
 Here is a trailer featuring a short in-game footage:
 
-<video width="1280" height="720" controls>
-  <source src="/project/game-platformerland/platformerland.mp4" type="video/mp4">
-</video>
+<div align="center" class="video-container">
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/XD7AIrBZJSw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 
 <br />

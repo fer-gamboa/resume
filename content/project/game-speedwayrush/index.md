@@ -71,9 +71,9 @@ The result was _Speedway Rush_: an arcade-style game which still manages to get 
 
 
 
-<video width="1280" height="720" controls>
-  <source src="/project/game-speedwayrush/SpeedwayRush.mp4" type="video/mp4">
-</video>
+<div align="center" class="video-container">
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/D09teIckJfg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 
 <br />
