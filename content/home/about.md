@@ -38,5 +38,5 @@ I have been playing videogames since I was a child. They can be not only fun, bu
 
 Besides that, I am a computer hardware enthusiast, and keep myself informed in different trends and products available on the market. I consider it an important aspect, and enjoy assembling my own computers from scratch.
 
-I am currently taking the last courses of the _Bachelor in Game Design and Development_ at Universidad Nacional del Litoral, in Santa Fe, Argentina. My ETA for graduation is the first semester of 2019. I am currently interest in any internship or junior position in the videogames development industry.
+I am currently taking the last courses of the _Bachelor in Game Design and Development_ at Universidad Nacional del Litoral, in Santa Fe, Argentina. My ETA for graduation is the first semester of 2019. I am currently interested in any internship or junior position in the videogames development industry.
 
