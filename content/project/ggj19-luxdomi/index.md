@@ -10,7 +10,7 @@ summary = "Even in the darkest moments, some sensations transport us to a quiet 
 
 
 # Tags: can be used for filtering projects.
-tags = ["Alpha Games", "GameJam"]
+tags = ["GameJam"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

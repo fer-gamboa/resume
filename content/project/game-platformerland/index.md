@@ -10,7 +10,7 @@ summary = "A platformer game intended for the casual player that enjoys jumping,
 
 
 # Tags: can be used for filtering projects.
-tags = ["Alpha Games"]
+tags = ["GDDs"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

@@ -10,7 +10,7 @@ summary = "A frenetic, dynamic arcade-style game, where the player cannot fully 
 
 
 # Tags: can be used for filtering projects.
-tags = ["Alpha Games"]
+tags = ["GDDs"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

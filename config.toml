@@ -44,10 +44,10 @@ enableGitInfo = false
 
   # Your details.
   name = "Fernando Gamboa"
-  role = "Bachelor on Game Design & Development Student"
+  role = "BsC Game Design & Development"
 
   # Organizations/Affiliations.
-  organizations = [ { name = "Universidad Nacional del Litoral", url = "http://fich.unl.edu.ar/carrera.php?id=26" } ]
+  organizations = [ { name = "ProwessGames", url = "https://www.prowessgames.net" } ]
 
   gravatar = false
   avatar = "portrait.jpg" 

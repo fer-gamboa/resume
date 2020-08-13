@@ -41,8 +41,8 @@ filter_default = 0
   tag = "*"
 
 [[filter]]
-  name = "Alpha Games"
-  tag = "Alpha Games"
+  name = "Prowess Games"
+  tag = "Prowess Games"
 
 [[filter]]
   name = "Game Designs"

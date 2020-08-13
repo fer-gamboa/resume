@@ -10,7 +10,7 @@ summary = "A game intended for very young children (2-3 years). The goal is to p
 
 
 # Tags: can be used for filtering projects.
-tags = ["Alpha Games"]
+tags = ["GDDs"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

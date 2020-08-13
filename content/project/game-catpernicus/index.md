@@ -10,7 +10,7 @@ summary = "A platformer game with touches of stealth mode, made in Godot Engine,
 
 
 # Tags: can be used for filtering projects.
-tags = ["Alpha Games"]
+tags = ["GDDs"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

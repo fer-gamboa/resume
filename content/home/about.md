@@ -38,5 +38,8 @@ I have been playing videogames since I was a child. They can be not only fun, bu
 
 Besides that, I am a computer hardware enthusiast, and keep myself informed in different trends and products available on the market. I consider it an important aspect, and enjoy assembling my own computers from scratch.
 
-I am currently finishing the final project for the _Bachelor in Game Design and Development_ at Universidad Nacional del Litoral (Santa Fe, Argentina). My ETA for graduation is the first semester of 2020. In 2019 I relocated and now I'm based in Melbourne, Australia, and I am currently interested in any internship or junior position in the videogames development industry.
+All of that prompted me to study the _Bachelor in Game Design and Development_ at Universidad Nacional del Litoral (Santa Fe, Argentina). In 2019 I relocated to Melbourne, Australia, and in 2020 I started my own indie game studio, [_Prowess Games_](https://www.prowessgames.net), focusing in mobile games around the genres of arcade and incremental.
+
+
+
 
