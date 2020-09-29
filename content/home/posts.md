@@ -7,10 +7,9 @@ weight = 40
 date = 2016-04-20T00:00:00
 
 title = "Blog"
-subtitle = "[Browse all blog posts &#8594;](post/)"
 
 # Number of recent posts to list.
-count = 5
+count = 2
 
 # List format.
 #   0 = Simple
@@ -24,4 +23,3 @@ widget_layout = 1
 filter_tag = ""
 filter_category = ""
 +++
-

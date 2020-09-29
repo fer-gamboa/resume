@@ -153,6 +153,11 @@ enableGitInfo = false
     icon = "html5"
     icon_pack = "fab"
     link = "https://fergamboa.itch.io/"
+    
+   [[params.social]]
+    icon = "medium"
+    icon_pack = "fab"
+    link = "https://medium.com/@fergamboa_"
 
 
 
@@ -193,3 +198,8 @@ enableGitInfo = false
 # Languages
 [languages.en]
   languageCode = "en-us"
+  
+  
+################################ ALLOWS HTML IN MD ########################
+[markup.goldmark.renderer]
+unsafe= true

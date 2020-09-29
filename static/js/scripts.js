@@ -15,6 +15,9 @@ function updateElements(widget) {
   var postsCont = widget.getElementsByClassName("col-12 col-lg-8")[0];
   postsCont.classList.add("row", "isotope", "projects-container", "js-layout-masonry");
   postsCont.classList.remove("col-12", "col-lg-8");
+  
+  
+  MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@fergamboa_","postsPerLine":2,"limit":4,"picture":"none","fields":["description","author","claps","publishAt"],"ratio":"square"}})
 }
 
 
